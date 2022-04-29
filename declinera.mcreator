@@ -7,16 +7,144 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "declinera_base"
+    },
+    {
+      "name": "DivingEffectDangYaoShuiXiaoGuoKaiShiYingYongShi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_effect_dang_yao_shui_xiao_guo_kai_shi_ying_yong_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DivingEffect",
+      "type": "potioneffect",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_effect"
+    },
+    {
+      "name": "DivingEffectZaiXiaoGuoChiXuShiMeiKeFaSheng",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_effect_zai_xiao_guo_chi_xu_shi_mei_ke_fa_sheng",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DivingEffectDangXiaoGuoJieShuShi",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_effect_dang_xiao_guo_jie_shu_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Diving",
+      "type": "potion",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving"
+    },
+    {
+      "name": "DivingBerry",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_berry"
+    },
+    {
+      "name": "DivingCrafting",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabdeclinera_base": "Declinera Base"
+      "itemGroup.tabdeclinera_base": "Declinera Base",
+      "item.minecraft.lingering_potion.effect.diving": "Lingering Potion of Diving",
+      "item.minecraft.tipped_arrow.effect.diving": "Arrow of Diving",
+      "item.minecraft.potion.effect.diving": "Potion of Diving",
+      "block.declinera.diving_berry": "Diving Berry",
+      "item.minecraft.splash_potion.effect.diving": "Splash Potion of Diving",
+      "effect.diving_effect": "Diving Effect"
     },
     "zh_cn": {
-      "itemGroup.tabdeclinera_base": "没落基本"
+      "itemGroup.tabdeclinera_base": "没落基本",
+      "item.minecraft.lingering_potion.effect.diving": "滞留型下潜药水",
+      "item.minecraft.tipped_arrow.effect.diving": "下潜之箭",
+      "item.minecraft.potion.effect.diving": "下潜药水",
+      "block.declinera.diving_berry": "下潜浆果",
+      "item.minecraft.splash_potion.effect.diving": "喷溅型下潜药水",
+      "effect.diving_effect": "下潜"
     }
   },
   "foldersRoot": {

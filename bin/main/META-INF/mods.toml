@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT License"
+
+[[mods]]
+modId="declinera"
+version="1.0.0"
+displayName="declinera"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://github.com/lingyunmo/declinera-1.16.5-forge"
+authors="lingyunmo, MCreator"
+
+[[dependencies.declinera]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.declinera]]
+    modId="bookshelf"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
