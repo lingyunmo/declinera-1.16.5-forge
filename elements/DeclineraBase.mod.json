@@ -1,0 +1,11 @@
+{
+  "_fv": 24,
+  "_type": "tab",
+  "definition": {
+    "name": "Declinera Base",
+    "icon": {
+      "value": "Blocks.SOUL_CAMPFIRE"
+    },
+    "showSearch": false
+  }
+}

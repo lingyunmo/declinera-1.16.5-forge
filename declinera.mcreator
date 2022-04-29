@@ -1,9 +1,23 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "DeclineraBase",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "declinera_base"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "itemGroup.tabdeclinera_base": "Declinera Base"
+    },
+    "zh_cn": {
+      "itemGroup.tabdeclinera_base": "Ã»Âä»ù±¾"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,15 +27,17 @@
     "modid": "declinera",
     "modName": "declinera",
     "version": "1.0.0",
-    "author": "asus, MCreator",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "author": "lingyunmo, MCreator",
+    "websiteURL": "https://github.com/lingyunmo/declinera-1.16.5-forge",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "bookshelf"
+    ],
     "currentGenerator": "forge-1.16.5",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.declinera",
