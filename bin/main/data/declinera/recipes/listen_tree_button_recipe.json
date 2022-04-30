@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "declinera:listen_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "declinera:listen_tree_button",
+    "count": 1
+  }
+}

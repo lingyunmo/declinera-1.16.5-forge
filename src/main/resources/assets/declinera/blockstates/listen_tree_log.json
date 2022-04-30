@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "declinera:block/listen_tree_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "declinera:block/listen_tree_log"
+    },
+    "axis=z": {
+      "model": "declinera:block/listen_tree_log",
+      "x": 90
+    }
+  }
+}

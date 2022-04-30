@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:ListenTreeWood"
+      },
+      {
+        "value": "CUSTOM:ListenTreeLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "listentree_log",
+    "namespace": "forge"
+  }
+}

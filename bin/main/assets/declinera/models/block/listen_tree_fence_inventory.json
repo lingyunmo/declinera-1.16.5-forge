@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "declinera:blocks/listentree_planks",
+    "particle": "declinera:blocks/listentree_planks"
+  }
+}

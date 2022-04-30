@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "declinera:block/dirt_packager"
+    },
+    "facing=east": {
+      "model": "declinera:block/dirt_packager",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "declinera:block/dirt_packager",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "declinera:block/dirt_packager",
+      "y": 270
+    }
+  }
+}

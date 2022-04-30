@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "declinera:blocks/listentree_planks",
+    "particle": "declinera:blocks/listentree_planks"
+  }
+}

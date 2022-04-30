@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "declinera:listen_tree_log"
+    },
+    "1": {
+      "item": "declinera:listen_tree_log"
+    },
+    "2": {
+      "item": "declinera:listen_tree_log"
+    },
+    "3": {
+      "item": "declinera:listen_tree_log"
+    }
+  },
+  "result": {
+    "item": "declinera:listen_tree_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "declinera:blocks/packager_side",
+    "up": "declinera:blocks/dirt_packager_img_side",
+    "north": "declinera:blocks/dirt_packager_img_side",
+    "east": "declinera:blocks/packager_side",
+    "south": "declinera:blocks/packager_side",
+    "west": "declinera:blocks/packager_side",
+    "particle": "declinera:blocks/packager_side"
+  }
+}

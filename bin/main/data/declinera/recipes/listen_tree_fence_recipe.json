@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "declinera:listen_tree_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "declinera:listen_tree_planks"
+    },
+    "3": {
+      "item": "declinera:listen_tree_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "declinera:listen_tree_planks"
+    }
+  },
+  "result": {
+    "item": "declinera:listen_tree_fence",
+    "count": 3
+  }
+}

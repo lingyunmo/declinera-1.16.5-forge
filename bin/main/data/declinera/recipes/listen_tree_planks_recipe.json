@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:listentree_log"
+    }
+  ],
+  "result": {
+    "item": "declinera:listen_tree_planks",
+    "count": 4
+  }
+}
