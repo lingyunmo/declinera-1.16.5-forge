@@ -34,7 +34,7 @@ public class DivingEffectPotionEffect {
 
 	public static class EffectCustom extends Effect {
 		public EffectCustom() {
-			super(EffectType.BENEFICIAL, -16737895);
+			super(EffectType.HARMFUL, -16737895);
 			setRegistryName("diving_effect");
 		}
 
@@ -45,7 +45,7 @@ public class DivingEffectPotionEffect {
 
 		@Override
 		public boolean isBeneficial() {
-			return true;
+			return false;
 		}
 
 		@Override
@@ -88,9 +88,7 @@ public class DivingEffectPotionEffect {
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			DivingEffectZaiXiaoGuoChiXuShiMeiKeFaShengProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z),
-							new AbstractMap.SimpleEntry<>("entity", entity))
+			DivingEffectZaiXiaoGuoChiXuShiMeiKeFaShengProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
