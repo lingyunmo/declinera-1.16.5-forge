@@ -25,4 +25,10 @@ authors="lingyunmo, MCreator"
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
+[[dependencies.declinera]]
+    modId="patchouli"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

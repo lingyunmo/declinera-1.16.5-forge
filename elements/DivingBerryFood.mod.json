@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "diving_food",
+    "customModelName": "Normal",
+    "name": "Diving Berry Food",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:DeclineraBase"
+    },
+    "stackSize": 16,
+    "nutritionalValue": 2,
+    "saturation": 0.1,
+    "eatingSpeed": 16,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "DivingBerryFoodDangShiWuBeiChiShi"
+    }
+  }
+}

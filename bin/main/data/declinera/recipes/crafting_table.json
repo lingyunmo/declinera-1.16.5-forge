@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "declinera:diving_berry"
+    },
+    "1": {
+      "item": "declinera:diving_berry"
+    },
+    "2": {
+      "item": "declinera:diving_berry"
+    },
+    "4": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "declinera:diving_berry_food",
+    "count": 1
+  }
+}

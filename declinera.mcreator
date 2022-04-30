@@ -111,12 +111,45 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "diving_crafting"
+    },
+    {
+      "name": "DivingBerryFoodDangShiWuBeiChiShi",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_berry_food_dang_shi_wu_bei_chi_shi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DivingBerryFood",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_berry_food"
+    },
+    {
+      "name": "DivingBerryFoodCrafting",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diving_berry_food_crafting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.declinera.diving_berry_food": "Diving Berry Food",
       "itemGroup.tabdeclinera_base": "Declinera Base",
       "item.minecraft.lingering_potion.effect.diving": "Lingering Potion of Diving",
       "item.minecraft.tipped_arrow.effect.diving": "Arrow of Diving",
@@ -126,6 +159,7 @@
       "effect.diving_effect": "Diving Effect"
     },
     "zh_cn": {
+      "item.declinera.diving_berry_food": "Diving Berry Food",
       "itemGroup.tabdeclinera_base": "没落基本",
       "item.minecraft.lingering_potion.effect.diving": "滞留型下潜药水",
       "item.minecraft.tipped_arrow.effect.diving": "下潜之箭",
